@@ -8,10 +8,12 @@ html, body {
   font-size: 20px; }
 
 .nav {
+  position: absolute;
+  z-index: 2;
   display: table;
   width: 100%;
   height: 2.5rem;
-  background-color: rgba(24, 24, 27, 0.6); }
+  background-color: rgba(34, 40, 49, 0.8); }
   .nav .logo-menu {
     height: 2.5rem;
     padding: 0 5%;
@@ -44,7 +46,7 @@ html, body {
         -o-transition: background 0.3s linear;
         transition: background 0.3s linear; }
         .nav .main-nav .nav-ul li:hover {
-          background-color: #18181b; }
+          background-color: #0092CA; }
         .nav .main-nav .nav-ul li a {
           text-decoration: none;
           display: block;
@@ -53,11 +55,13 @@ html, body {
 
 .home {
   display: table;
-  /*margin-top: -50px */
   width: 100%;
   height: 100vh;
-  background-color: red;
-  /*margin-top: -2.5rem */ }
+  /*background-color: #0092CA */
+  background: url(../imagenes/home.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  text-align: right; }
 
 .acerca {
   display: table; }

@@ -1,10 +1,12 @@
-$negro: rgb(24, 24, 27)
+
 
 .nav
+  position: absolute
+  z-index: 2
   display: table
   width: 100%
   height: 2.5rem
-  background-color: rgba($negro, 0.6)
+  background-color: rgba($negro, 0.8)
   .logo-menu
     height: 2.5rem
     padding: 0 5%
@@ -37,7 +39,7 @@ $negro: rgb(24, 24, 27)
         -o-transition: background .3s linear
         transition: background .3s linear
         &:hover
-          background-color: $negro
+          background-color: $azul
         a
           text-decoration: none
           display: block
