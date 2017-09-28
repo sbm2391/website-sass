@@ -108,4 +108,24 @@ html, body {
     border-style: solid;
     margin: 5rem; }
 
+.servicios {
+  display: table;
+  width: 100%;
+  background-color: #EEEEEE; }
+  .servicios .tittle {
+    width: 100%;
+    display: table; }
+    .servicios .tittle h2 {
+      background-color: #392E46;
+      font-size: 1.5rem;
+      height: 3rem;
+      padding: 0.7rem 0;
+      width: 45rem;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      color: #EEEEEE;
+      font-weight: 400;
+      float: right; }
+
 /*# sourceMappingURL=main.css.map */
