@@ -139,7 +139,10 @@ html, body {
       width: 35vh;
       margin: 5vh;
       background-color: white;
-      border: 0.05rem groove #222831; }
+      border: 0.05rem groove #EEEEEE;
+      box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5);
+      -webkit-box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5);
+      -moz-box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5); }
       .servicios .container-1 .box h3 {
         border-bottom: 0.05rem groove #EEEEEE;
         font-weight: 200;
