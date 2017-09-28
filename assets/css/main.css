@@ -105,8 +105,8 @@ html, body {
     font-weight: 400; }
   .acerca p {
     box-sizing: border-box;
-    border-style: solid;
-    margin: 5rem; }
+    border: 0.05rem groove #222831;
+    margin: 15vh; }
 
 .servicios {
   display: table;
@@ -127,5 +127,25 @@ html, body {
       color: #EEEEEE;
       font-weight: 400;
       float: right; }
+  .servicios .container-1 {
+    background-color: #EEEEEE;
+    display: table;
+    width: 100%;
+    padding: 0;
+    text-align: center; }
+    .servicios .container-1 .box {
+      display: inline-block;
+      border-style: solid;
+      width: 35vh;
+      margin: 5vh;
+      background-color: white;
+      border: 0.05rem groove #222831; }
+      .servicios .container-1 .box h3 {
+        border-bottom: 0.05rem groove #EEEEEE;
+        font-weight: 200;
+        padding: 0.2rem 0; }
+      .servicios .container-1 .box p {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem; }
 
 /*# sourceMappingURL=main.css.map */
