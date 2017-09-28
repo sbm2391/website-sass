@@ -89,7 +89,6 @@ html, body {
 .acerca {
   display: table;
   width: 100%;
-  /*height: 70vh */
   background-color: #EEEEEE; }
   .acerca h2 {
     background-color: #392E46;
@@ -150,5 +149,21 @@ html, body {
       .servicios .container-1 .box p {
         padding: 0.5rem 1rem;
         font-size: 0.8rem; }
+
+.proyectos {
+  display: table;
+  width: 100%;
+  background-color: #EEEEEE; }
+  .proyectos h2 {
+    background-color: #392E46;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: 0.7rem 0;
+    width: 45rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #EEEEEE;
+    font-weight: 400; }
 
 /*# sourceMappingURL=main.css.map */
