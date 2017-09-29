@@ -19,9 +19,18 @@ html, body {
     padding: 0 5%;
     width: 29%;
     float: left; }
-    .nav .logo-menu img {
-      height: 2rem;
-      margin-top: 0.25rem; }
+    .nav .logo-menu a {
+      height: 1.8rem; }
+      .nav .logo-menu a img {
+        height: 1.8rem;
+        margin-top: 0.25rem;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; }
+        .nav .logo-menu a img:hover {
+          border-bottom: 0.1rem solid #FF5733; }
   .nav .main-nav {
     float: right;
     height: 2.5rem;
@@ -38,7 +47,7 @@ html, body {
         padding: 0.7rem 0;
         list-style-type: none;
         height: 2.5rem;
-        width: 16%;
+        width: 17%;
         letter-spacing: normal;
         -webkit-transition: background 0.3s linear;
         -moz-transition: background 0.3s linear;
