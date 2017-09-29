@@ -5,7 +5,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-size: 20px; }
+  font-size: 20px;
+  width: 100%; }
 
 .nav {
   position: fixed;
@@ -41,13 +42,14 @@ html, body {
       padding-right: 1.5rem;
       text-align: right;
       height: 2.5rem;
-      letter-spacing: -0.25rem; }
+      letter-spacing: -0.25rem;
+      font-size: 0.8rem; }
       .nav .main-nav .nav-ul li {
         display: inline-block;
         padding: 0.7rem 0;
         list-style-type: none;
         height: 2.5rem;
-        width: 17%;
+        width: 8rem;
         letter-spacing: normal;
         -webkit-transition: background 0.3s linear;
         -moz-transition: background 0.3s linear;
@@ -123,7 +125,7 @@ html, body {
         color: #EEEEEE;
         width: 60vh;
         float: right;
-        padding: 6rem 2rem; }
+        padding: 13vh 2vw; }
 
 .servicios {
   display: table;
@@ -159,7 +161,16 @@ html, body {
       border: 0.05rem groove #EEEEEE;
       box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5);
       -webkit-box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5);
-      -moz-box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5); }
+      -moz-box-shadow: 0 0.06rem 0.5rem 0 rgba(128, 128, 128, 0.5);
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      transition: all 0.3s linear; }
+      .servicios .container-1 .box:hover {
+        box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
+        -webkit-box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
+        -moz-box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6); }
       .servicios .container-1 .box h3 {
         border-bottom: 0.05rem groove #EEEEEE;
         font-weight: 200;
@@ -183,5 +194,9 @@ html, body {
     margin-bottom: 0;
     color: #EEEEEE;
     font-weight: 400; }
+  .proyectos .container-2 {
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 50vh; }
 
 /*# sourceMappingURL=main.css.map */
