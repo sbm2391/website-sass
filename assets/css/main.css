@@ -1,5 +1,5 @@
 * {
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box; }
 
 html, body {
@@ -111,7 +111,7 @@ html, body {
     text-transform: uppercase;
     margin-bottom: 0;
     color: #EEEEEE;
-    font-weight: 400; }
+    font-weight: 100; }
   .acerca .container {
     box-sizing: border-box;
     margin: 7vh 15vw; }
@@ -176,10 +176,12 @@ html, body {
       .servicios .container-1 .box h3 {
         border-bottom: 0.05rem groove #EEEEEE;
         font-weight: 200;
-        padding: 0.2rem 0; }
+        padding: 0.2rem 0;
+        color: #222831; }
       .servicios .container-1 .box p {
         padding: 0.5rem 1rem;
-        font-size: 0.8rem; }
+        font-size: 0.8rem;
+        color: #222831; }
 
 .proyectos {
   display: table;
