@@ -114,7 +114,7 @@ html, body {
     font-weight: 400; }
   .acerca .container {
     box-sizing: border-box;
-    margin: 7vh 15vh; }
+    margin: 7vh 15vw; }
     .acerca .container .face {
       height: 60vh;
       margin: 0;
@@ -166,7 +166,8 @@ html, body {
       -moz-transition: all 0.3s linear;
       -ms-transition: all 0.3s linear;
       -o-transition: all 0.3s linear;
-      transition: all 0.3s linear; }
+      transition: all 0.3s linear;
+      cursor: pointer; }
       .servicios .container-1 .box:hover {
         box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
         -webkit-box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
@@ -198,5 +199,76 @@ html, body {
     width: 100%;
     background-color: #EEEEEE;
     height: 50vh; }
+
+.contacto {
+  display: table;
+  width: 100%;
+  background-color: #EEEEEE; }
+  .contacto h2 {
+    background-color: #392E46;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: 0.7rem 0;
+    width: 45rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #EEEEEE;
+    font-weight: 400;
+    float: right; }
+
+.contacto .container-3 {
+  display: table;
+  width: 100%;
+  padding: 0;
+  text-align: center; }
+  .contacto .container-3 .cf {
+    max-width: 30%;
+    height: 70vh;
+    text-align: center;
+    margin: 7vh auto;
+    text-align: center; }
+    .contacto .container-3 .cf .half-left-cf {
+      width: 100%; }
+      .contacto .container-3 .cf .half-left-cf input {
+        border: 0;
+        outline: 0;
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+        -webkit-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        -moz-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        resize: none; }
+        .contacto .container-3 .cf .half-left-cf input:focus {
+          border: 0.1rem solid #0092CA !important; }
+    .contacto .container-3 .cf .half-right-cf {
+      width: 100%; }
+      .contacto .container-3 .cf .half-right-cf textarea {
+        border: 0;
+        outline: 0;
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+        -webkit-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        -moz-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        resize: none;
+        height: 7rem; }
+        .contacto .container-3 .cf .half-right-cf textarea:focus {
+          border: 0.1rem solid #0092CA !important; }
+    .contacto .container-3 .cf #input-submit {
+      width: 20%;
+      height: 6vh;
+      margin-top: 1rem;
+      color: white;
+      background: #0092CA;
+      cursor: pointer; }
+      .contacto .container-3 .cf #input-submit:hover {
+        box-shadow: 0 0.1rem 0.5rem 0.2rem rgba(128, 128, 128, 0.5);
+        -webkit-box-shadow: 0 0.1rem 0.5rem 0.2rem rgba(128, 128, 128, 0.5);
+        -moz-box-shadow: 0 0.1rem 0.5rem 0.2rem rgba(128, 128, 128, 0.5); }
 
 /*# sourceMappingURL=main.css.map */
