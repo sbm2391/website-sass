@@ -8,7 +8,7 @@
       max-width: 30%
       height: 60vh
       text-align: center
-      margin: 7vh auto
+      margin: 0 auto 3rem auto
       text-align: center
       .half-left-cf
         width: 100%
@@ -19,9 +19,7 @@
           display: block
           width: 100%
           margin-top: 1rem
-          -webkit-box-shadow: 0 0.1rem 0.1rem rgba(grey, 0.1)
-          -moz-box-shadow: 0 0.1rem 0.1rem rgba(grey, 0.1)
-          box-shadow: 0 0.1rem 0.1rem rgba(grey, 0.1)
+          +shadow( 0, 0.1rem, 0.1rem, 0, rgba(grey, 0.1))
           resize: none
           &:focus
               border: 0.1rem solid $azul!important
@@ -34,9 +32,7 @@
           display: block
           width: 100%
           margin-top: 1rem
-          -webkit-box-shadow: 0 0.1rem 0.1rem rgba(grey, 0.1)
-          -moz-box-shadow: 0 0.1rem 0.1rem rgba(grey, 0.1)
-          box-shadow: 0 0.1rem 0.1rem rgba(grey, 0.1)
+          +shadow( 0, 0.1rem, 0.1rem, 0, rgba(grey, 0.1))
           resize: none
           height: 7rem
           &:focus
@@ -44,17 +40,11 @@
 
       #input-submit
         width: 20%
-        height: 6vh
+        height: 2.5rem
         margin-top: 1rem
         color: white
         background: $azul
         cursor: pointer
-        -webkit-transition: all 0.3s linear
-        -moz-transition: all 0.3s linear
-        -ms-transition: all 0.3s linear
-        -o-transition: all 0.3s linear
-        transition: all 0.3s linear
+        +transition( all, 0.3s, linear)
         &:hover
-          box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(grey, 0.6)
-          -webkit-box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(grey, 0.6)
-          -moz-box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(grey, 0.6)
+          +shadow( 0, 0.1rem, 0.5rem, 0.1rem, rgba(grey, 0.6))

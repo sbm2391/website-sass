@@ -25,11 +25,11 @@ html, body {
       .nav .logo-menu a img {
         height: 1.8rem;
         margin-top: 0.25rem;
-        -webkit-transition: all 0.3s linear;
-        -moz-transition: all 0.3s linear;
-        -ms-transition: all 0.3s linear;
-        -o-transition: all 0.3s linear;
-        transition: all 0.3s linear; }
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear; }
         .nav .logo-menu a img:hover {
           border-bottom: 0.1rem solid #FF5733; }
   .nav .main-nav {
@@ -51,11 +51,11 @@ html, body {
         height: 2.5rem;
         width: 8rem;
         letter-spacing: normal;
-        -webkit-transition: background 0.3s linear;
-        -moz-transition: background 0.3s linear;
-        -ms-transition: background 0.3s linear;
-        -o-transition: background 0.3s linear;
-        transition: background 0.3s linear; }
+        -webkit-transition: background 0.2s linear;
+        -moz-transition: background 0.2s linear;
+        -ms-transition: background 0.2s linear;
+        -o-transition: background 0.2s linear;
+        transition: background 0.2s linear; }
         .nav .main-nav .nav-ul li:hover {
           background-color: #0092CA; }
         .nav .main-nav .nav-ul li a {
@@ -100,7 +100,8 @@ html, body {
 .acerca {
   display: table;
   width: 100%;
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  padding-top: 3rem; }
   .acerca h2 {
     background-color: #392E46;
     font-size: 1.5rem;
@@ -109,12 +110,12 @@ html, body {
     width: 45rem;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 4rem;
     color: #EEEEEE;
     font-weight: 100; }
   .acerca .container {
     box-sizing: border-box;
-    margin: 7vh 15vw; }
+    margin: 0 15vw; }
     .acerca .container .face {
       height: 60vh;
       margin: 0;
@@ -123,14 +124,15 @@ html, body {
       background-size: cover; }
       .acerca .container .face p {
         color: #EEEEEE;
-        width: 60vh;
+        width: 37vw;
         float: right;
-        padding: 13vh 2vw; }
+        padding: 9vh 2vw; }
 
 .servicios {
   display: table;
   width: 100%;
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  padding-top: 3rem; }
   .servicios .tittle {
     width: 100%;
     display: table; }
@@ -142,7 +144,7 @@ html, body {
       width: 45rem;
       text-align: center;
       text-transform: uppercase;
-      margin-bottom: 0;
+      margin-bottom: 3rem;
       color: #EEEEEE;
       font-weight: 400;
       float: right; }
@@ -160,9 +162,9 @@ html, body {
       margin: 3%;
       background-color: white;
       border: 0.05rem groove #EEEEEE;
-      -webkit-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
-      -moz-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
-      box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+      -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
+      -moz-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
+      box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
       -webkit-transition: all 0.3s linear;
       -moz-transition: all 0.3s linear;
       -ms-transition: all 0.3s linear;
@@ -170,9 +172,9 @@ html, body {
       transition: all 0.3s linear;
       cursor: pointer; }
       .servicios .container-1 .box:hover {
-        box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
         -webkit-box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
-        -moz-box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6); }
+        -moz-box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6);
+        box-shadow: 0 0.06rem 0.5rem 0.2rem rgba(128, 128, 128, 0.6); }
       .servicios .container-1 .box h3 {
         border-bottom: 0.05rem groove #EEEEEE;
         font-weight: 200;
@@ -187,7 +189,8 @@ html, body {
 .proyectos {
   display: table;
   width: 100%;
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  padding-top: 3rem; }
   .proyectos h2 {
     background-color: #392E46;
     font-size: 1.5rem;
@@ -196,7 +199,7 @@ html, body {
     width: 45rem;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     color: #EEEEEE;
     font-weight: 400; }
   .proyectos .container-2 {
@@ -207,7 +210,8 @@ html, body {
 .contacto {
   display: table;
   width: 100%;
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  padding-top: 3rem; }
   .contacto h2 {
     background-color: #392E46;
     font-size: 1.5rem;
@@ -216,7 +220,7 @@ html, body {
     width: 45rem;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     color: #EEEEEE;
     font-weight: 400;
     float: right; }
@@ -230,7 +234,7 @@ html, body {
     max-width: 30%;
     height: 60vh;
     text-align: center;
-    margin: 7vh auto;
+    margin: 0 auto 3rem auto;
     text-align: center; }
     .contacto .container-3 .cf .half-left-cf {
       width: 100%; }
@@ -241,9 +245,9 @@ html, body {
         display: block;
         width: 100%;
         margin-top: 1rem;
-        -webkit-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
-        -moz-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
-        box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
+        -moz-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
+        box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
         resize: none; }
         .contacto .container-3 .cf .half-left-cf input:focus {
           border: 0.1rem solid #0092CA !important; }
@@ -256,16 +260,16 @@ html, body {
         display: block;
         width: 100%;
         margin-top: 1rem;
-        -webkit-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
-        -moz-box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
-        box-shadow: 0 0.1rem 0.1rem rgba(128, 128, 128, 0.1);
+        -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
+        -moz-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
+        box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
         resize: none;
         height: 7rem; }
         .contacto .container-3 .cf .half-right-cf textarea:focus {
           border: 0.1rem solid #0092CA !important; }
     .contacto .container-3 .cf #input-submit {
       width: 20%;
-      height: 6vh;
+      height: 2.5rem;
       margin-top: 1rem;
       color: white;
       background: #0092CA;
@@ -276,9 +280,9 @@ html, body {
       -o-transition: all 0.3s linear;
       transition: all 0.3s linear; }
       .contacto .container-3 .cf #input-submit:hover {
-        box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(128, 128, 128, 0.6);
         -webkit-box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(128, 128, 128, 0.6);
-        -moz-box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(128, 128, 128, 0.6); }
+        -moz-box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(128, 128, 128, 0.6);
+        box-shadow: 0 0.1rem 0.5rem 0.1rem rgba(128, 128, 128, 0.6); }
 
 .footer {
   display: table;
