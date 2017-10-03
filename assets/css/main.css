@@ -363,5 +363,38 @@ html, body {
     font-size: 1.7rem; }
   .home h2 {
     font-size: 1.4rem; } }
+/* mobile */
+@media screen and (max-width: 425px) {
+  .home h1 {
+    height: auto; }
+  .home h2 {
+    height: auto; }
+
+  .acerca .presentacion h2 {
+    width: 100%; }
+  .acerca .presentacion .container .face {
+    background: #0092CA;
+    height: auto; }
+    .acerca .presentacion .container .face p {
+      width: 85vw;
+      padding: 2vh;
+      text-align: center; }
+
+  .servicios .tittle h2 {
+    width: 100%; }
+  .servicios .container-1 .box {
+    width: 90vw; }
+
+  .proyectos h2 {
+    width: 100%; }
+
+  .contacto h2 {
+    width: 100%; }
+  .contacto .container-3 .cf {
+    max-width: 90%; }
+
+  .footer .container-4 p {
+    padding-right: 3vw;
+    padding-left: 3vw; } }
 
 /*# sourceMappingURL=main.css.map */
