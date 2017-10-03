@@ -37,6 +37,12 @@ html, body {
     height: 2.5rem;
     width: 70%;
     padding: 0; }
+    .nav .main-nav .menu-icon {
+      width: 100%;
+      text-align: right;
+      box-sizing: border-box;
+      cursor: pointer;
+      display: none; }
     .nav .main-nav .nav-ul {
       margin: 0;
       padding-right: 1.5rem;
@@ -301,7 +307,41 @@ html, body {
       .footer .container-4 .logo a img {
         height: 1.8rem; }
     .footer .container-4 .cont-center .icon .fa {
-      color: white;
+      color: #EEEEEE;
       font-size: 2.3rem; }
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 15px; }
+
+  .nav .main-nav .menu-icon {
+    display: block;
+    height: 2.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.3rem; }
+    .nav .main-nav .menu-icon .fa {
+      color: #EEEEEE;
+      font-size: 2rem;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -ms-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+      .nav .main-nav .menu-icon .fa:hover {
+        color: #0092CA; }
+      .nav .main-nav .menu-icon .fa:hover + .nav-ul {
+        display: block; }
+  .nav .main-nav .nav-ul {
+    padding: 0;
+    display: none;
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(34, 40, 49, 0.8); }
+    .nav .main-nav .nav-ul li {
+      padding-right: 1.5rem;
+      width: 100%; }
+      .nav .main-nav .nav-ul li a {
+        text-align: right; } }
 
 /*# sourceMappingURL=main.css.map */
