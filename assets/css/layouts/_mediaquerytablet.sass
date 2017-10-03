@@ -1,11 +1,8 @@
 /* tablet */
 @media screen and (max-width: 768px)
   html, body
-    font-size: 15px
-
-
-
-
+    font-size: 17px
+  //nav
   .nav
     .main-nav
       .menu-icon
@@ -19,8 +16,8 @@
           +transition( all, .2s, linear )
           &:hover
             color: $azul
-          &:hover + .nav-ul
-                display: block
+          &:hover .nav-ul
+            display: block
       .nav-ul
         padding: 0
         display: none
@@ -32,3 +29,20 @@
           width: 100%
           a
             text-align: right
+  //home
+  .home
+    h1
+      width: 85%
+    h2
+      width: 75%
+
+  //acerca
+  .acerca
+    .container
+      margin: 0 7vw
+
+  //servicios
+  .servicios
+    .container-1
+      .box
+        width: 40vw

@@ -55,7 +55,7 @@ html, body {
         padding: 0.7rem 0;
         list-style-type: none;
         height: 2.5rem;
-        width: 8rem;
+        width: 20%;
         letter-spacing: normal;
         -webkit-transition: background 0.2s linear;
         -moz-transition: background 0.2s linear;
@@ -80,10 +80,10 @@ html, body {
   padding-top: 25vh; }
   .home h1 {
     background-color: rgba(0, 146, 202, 0.8);
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     height: 4rem;
     padding: 0.8rem 0;
-    width: 50rem;
+    width: 77%;
     text-align: center;
     float: right;
     text-transform: uppercase;
@@ -95,7 +95,7 @@ html, body {
     font-size: 1.5rem;
     height: 3rem;
     padding: 0.7rem 0;
-    width: 45rem;
+    width: 65%;
     text-align: center;
     float: right;
     text-transform: uppercase;
@@ -113,7 +113,7 @@ html, body {
     font-size: 1.5rem;
     height: 3rem;
     padding: 0.7rem 0;
-    width: 45rem;
+    width: 60%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 4rem;
@@ -147,7 +147,7 @@ html, body {
       font-size: 1.5rem;
       height: 3rem;
       padding: 0.7rem 0;
-      width: 45rem;
+      width: 60%;
       text-align: center;
       text-transform: uppercase;
       margin-bottom: 3rem;
@@ -202,7 +202,7 @@ html, body {
     font-size: 1.5rem;
     height: 3rem;
     padding: 0.7rem 0;
-    width: 45rem;
+    width: 60%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3rem;
@@ -223,7 +223,7 @@ html, body {
     font-size: 1.5rem;
     height: 3rem;
     padding: 0.7rem 0;
-    width: 45rem;
+    width: 60%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3rem;
@@ -274,7 +274,7 @@ html, body {
         .contacto .container-3 .cf .half-right-cf textarea:focus {
           border: 0.1rem solid #0092CA !important; }
     .contacto .container-3 .cf #input-submit {
-      width: 20%;
+      width: 4rem;
       height: 2.5rem;
       margin-top: 1rem;
       color: white;
@@ -313,7 +313,7 @@ html, body {
 /* tablet */
 @media screen and (max-width: 768px) {
   html, body {
-    font-size: 15px; }
+    font-size: 17px; }
 
   .nav .main-nav .menu-icon {
     display: block;
@@ -330,7 +330,7 @@ html, body {
       transition: all 0.2s linear; }
       .nav .main-nav .menu-icon .fa:hover {
         color: #0092CA; }
-      .nav .main-nav .menu-icon .fa:hover + .nav-ul {
+      .nav .main-nav .menu-icon .fa:hover .nav-ul {
         display: block; }
   .nav .main-nav .nav-ul {
     padding: 0;
@@ -342,6 +342,26 @@ html, body {
       padding-right: 1.5rem;
       width: 100%; }
       .nav .main-nav .nav-ul li a {
-        text-align: right; } }
+        text-align: right; }
+
+  .home h1 {
+    width: 85%; }
+  .home h2 {
+    width: 75%; }
+
+  .acerca .container {
+    margin: 0 7vw; }
+
+  .servicios .container-1 .box {
+    width: 40vw; } }
+/*laptop */
+@media screen and (max-width: 1000px) {
+  html, body {
+    font-size: 17px; }
+
+  .home h1 {
+    font-size: 1.7rem; }
+  .home h2 {
+    font-size: 1.4rem; } }
 
 /*# sourceMappingURL=main.css.map */
