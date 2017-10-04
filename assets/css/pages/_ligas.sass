@@ -1,0 +1,63 @@
+.ligas
+  display: table
+  width: 100%
+  background-color: $gris
+  padding-top: 3rem
+  h2
+    font-size: 1.5rem
+    letter-spacing: 0.3rem
+    margin: 0 10vw
+    width: 80%
+    text-transform: uppercase
+    padding: 0 0 0.7rem 0
+    color: $negro
+    font-family: $fonttittle
+    border-top: 0.1rem solid $negro
+    border-right: 0.1rem solid $negro
+    box-sizing: border-box
+  h1
+    font-size: 3rem
+    width: 80%
+    text-transform: uppercase
+    letter-spacing: 0.1rem
+    line-height: 0.9
+    color: $negro
+    font-family: $fonttittle
+    margin: 0 10vw
+    border-right: 0.1rem solid $negro
+    box-sizing: border-box
+  .asociados
+    width: 100%
+    padding: 5vh 10vw
+    text-align: center
+    //display: table
+    a
+      width: 14rem
+      height: 15rem
+      display: inline-block
+      text-decoration: none
+      position: relative
+      padding: 0
+      overflow: hidden
+      margin: 0 1vw
+      //border-style: solid
+      &:hover
+        p
+          left: 0%
+        img
+          +transform(1.1)
+
+      img
+        width: 14rem
+        height: 15rem
+        +transform(1)
+        +transition( all, 0.3s, ease-in-out )
+      p
+        margin: 0
+        background: $negro
+        color: $gris
+        position: absolute
+        bottom: 0
+        width: 100%
+        left: -100%
+        +transition( all, 0.3s, ease-in-out )
