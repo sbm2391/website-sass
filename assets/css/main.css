@@ -373,8 +373,6 @@ html, body {
   .home h2 {
     height: auto; }
 
-  .acerca .presentacion h2 {
-    width: 100%; }
   .acerca .presentacion .container .face {
     background: #0092CA;
     height: auto; }
@@ -400,5 +398,12 @@ html, body {
     padding-right: 3vw;
     padding-left: 3vw; } }
 /* l */
+@media screen and (min-width: 1441px) {
+  body {
+    background: #EEEEEE; }
+
+  .acerca {
+    width: 1440px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
