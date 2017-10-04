@@ -165,7 +165,10 @@ html, body {
       text-transform: uppercase;
       padding: 0 0 0.7rem 0;
       color: #222831;
-      font-family: "Roboto", sans-serif; }
+      font-family: "Roboto", sans-serif;
+      border-top: 0.1rem solid #222831;
+      border-left: 0.1rem solid;
+      box-sizing: border-box; }
     .servicios .tittle h1 {
       font-size: 3rem;
       width: 80%;
@@ -175,19 +178,24 @@ html, body {
       color: #222831;
       font-family: "Roboto", sans-serif;
       margin: 0 10vw;
-      text-align: right; }
+      text-align: right;
+      border-left: 0.1rem solid #222831;
+      box-sizing: border-box; }
   .servicios .container-1 {
     background-color: #EEEEEE;
     display: table;
     width: 100%;
     padding: 0;
+    padding: 0 10vw;
     text-align: center; }
+    .servicios .container-1 #margin, .servicios .container-1 #margin2 {
+      margin: 5vh 5vw; }
     .servicios .container-1 .box {
       display: inline-block;
       border: 0;
       outline: 0;
-      width: 25vw;
-      margin: 3%;
+      width: 22vw;
+      margin: 0;
       background-color: white;
       border: 0.05rem groove #EEEEEE;
       -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
@@ -238,6 +246,8 @@ html, body {
     color: #222831;
     font-family: "Roboto", sans-serif;
     margin: 0 10vw;
+    border-bottom: 0.1rem solid #222831;
+    box-sizing: border-box;
     text-align: center; }
   .proyectos .container-2 {
     width: 100%;
@@ -257,7 +267,10 @@ html, body {
     text-transform: uppercase;
     padding: 0 0 0.7rem 0;
     color: #222831;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    border-top: 0.1rem solid #222831;
+    border-right: 0.1rem solid #222831;
+    box-sizing: border-box; }
   .contacto h1 {
     font-size: 3rem;
     width: 80%;
@@ -266,7 +279,9 @@ html, body {
     line-height: 0.9;
     color: #222831;
     font-family: "Roboto", sans-serif;
-    margin: 0 10vw; }
+    margin: 0 10vw;
+    border-right: 0.1rem solid #222831;
+    box-sizing: border-box; }
   .contacto .table {
     display: table;
     width: 100%;
