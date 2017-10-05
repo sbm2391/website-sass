@@ -189,8 +189,6 @@ html, body {
     padding: 0;
     padding: 0 10vw;
     text-align: center; }
-    .servicios .container-1 #margin, .servicios .container-1 #margin2 {
-      margin: 5vh 5vw; }
     .servicios .container-1 .box {
       display: inline-block;
       border: 0;
@@ -288,8 +286,8 @@ html, body {
     padding: 5vh 10vw;
     text-align: center; }
     .ligas .asociados a {
-      width: 14rem;
-      height: 15rem;
+      width: 22vw;
+      height: 23wh;
       display: inline-block;
       text-decoration: none;
       position: relative;
@@ -305,8 +303,8 @@ html, body {
         -ms-transform: scale(1.1);
         transform: scale(1.1); }
       .ligas .asociados a img {
-        width: 14rem;
-        height: 15rem;
+        width: 22vw;
+        height: 23wh;
         -moz-transform: scale(1);
         -webkit-transform: scale(1);
         -o-transform: scale(1);
@@ -460,10 +458,13 @@ html, body {
   width: 12rem;
   margin: 1rem; }
 .servicios .container-1 #margin, .servicios .container-1 #margin2 {
-  margin: 1rem; }
+  margin: 3vh; }
 
 /* tablet */
 @media screen and (max-width: 803px) {
+  html, body {
+    font-size: 18px; }
+
   #menu-icon {
     display: block;
     height: 2.5rem;
@@ -490,7 +491,35 @@ html, body {
         border-right: 0.3rem solid #EEEEEE;
         border-bottom: none; }
       #mini-nav-il li a {
-        text-align: right; } }
+        text-align: right; }
+
+  .contacto .table .container-3 {
+    display: block;
+    width: 100%; }
+  .contacto .table .google-map {
+    display: block;
+    width: 100%;
+    margin: 3rem 0;
+    text-align: center; }
+    .contacto .table .google-map p {
+      width: 100%; }
+
+  .ligas .asociados a {
+    width: 11rem;
+    height: 12rem;
+    display: block;
+    margin: 3vh auto; }
+    .ligas .asociados a img {
+      width: 11rem;
+      height: 12rem; }
+
+  .proyectos h1, .ligas h1, .contacto h1, .servicios .tittle h1, .acerca .presentacion h1, .home .portada h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.01rem; }
+  .proyectos h2, .ligas h2, .contacto h2, .servicios .tittle h2, .acerca .presentacion h2, .home .portada h2 {
+    font-size: 1.1rem;
+    letter-spacing: 0.01rem; } }
+/* mobile */
 /* l */
 @media screen and (min-width: 1441px) {
   body {
@@ -518,6 +547,12 @@ html, body {
   .ligas .asociados {
     margin-top: 7vh;
     padding: 0 0 0 10vw; }
+    .ligas .asociados a {
+      width: 308px;
+      height: 322px; }
+      .ligas .asociados a img {
+        width: 308px;
+        height: 322px; }
 
   .contacto .table {
     margin-top: 7vh;

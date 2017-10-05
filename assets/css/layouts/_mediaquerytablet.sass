@@ -1,5 +1,8 @@
 /* tablet */
 @media screen and (max-width: 803px)
+  html, body,
+    font-size: 18px
+
   #menu-icon
     display: block
     height: 2.5rem
@@ -7,9 +10,6 @@
 
     .fa
       font-size: 1.5rem
-
-
-
 
   #mini-nav-il
     //display: none
@@ -30,3 +30,30 @@
         border-bottom: none
       a
         text-align: right
+
+  .contacto
+    .table
+      .container-3
+        display: block
+        width: 100%
+      .google-map
+        display: block
+        width: 100%
+        margin: 3rem 0
+        text-align: center
+        p
+          width: 100%
+
+  .ligas
+    .asociados
+      a
+        width: 11rem
+        height: 12rem
+        display: block
+        margin: 3vh auto
+        img
+          width: 11rem
+          height: 12rem
+
+  .proyectos, .ligas, .contacto, .servicios .tittle, .acerca .presentacion, .home .portada
+    +fontsize(2.2rem, 0.01rem)
