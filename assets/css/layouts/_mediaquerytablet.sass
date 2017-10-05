@@ -1,48 +1,32 @@
 /* tablet */
-@media screen and (max-width: 768px)
-  html, body
-    font-size: 17px
-  //nav
-  .nav
-    .main-nav
-      .menu-icon
-        display: block
-        height: 2.5rem
-        padding-right: 1.5rem
-        padding-top: 0.3rem
-        .fa
-          color: $gris
-          font-size: 2rem
-          +transition( all, .2s, linear )
-          &:hover
-            color: $azul
-          &:hover .nav-ul
-            display: block
-      .nav-ul
-        padding: 0
-        display: none
-        width: 100%
-        height: 10rem
-        background-color: rgba($negro, 0.8)
-        li
-          padding-right: 1.5rem
-          width: 100%
-          a
-            text-align: right
-  //home
-  .home
-    h1
-      width: 85%
-    h2
-      width: 75%
+@media screen and (max-width: 803px)
+  #menu-icon
+    display: block
+    height: 2.5rem
+    padding: 0.5rem 1rem
 
-  //acerca
-  .acerca
-    .container
-      margin: 0 7vw
+    .fa
+      font-size: 1.5rem
 
-  //servicios
-  .servicios
-    .container-1
-      .box
-        width: 40vw
+
+
+
+  #mini-nav-il
+    //display: none
+    //border-style: solid
+    padding-right: 0
+    width: 100%
+    height: 12.5rem
+    background-color: rgba($negro, 0.8)
+    li
+      display: block
+      height: 2.5rem
+      //border-style: solid
+      margin: 0
+      padding-right: 1rem
+      +transition( all, .2s, linear )
+      &:hover
+        border-right: 0.3rem solid $gris
+        border-bottom: none
+      a
+        text-align: right
