@@ -429,7 +429,7 @@ html, body {
 .footer {
   display: table;
   width: 100%;
-  background-color: rgba(34, 40, 49, 0.8);
+  background-color: rgba(34, 40, 49, 0.9);
   height: 25vh; }
   .footer .container-4 {
     width: 100%;
@@ -520,6 +520,25 @@ html, body {
     font-size: 1.1rem;
     letter-spacing: 0.01rem; } }
 /* mobile */
+@media screen and (max-width: 470px) {
+  html, body {
+    font-size: 16px; }
+
+  .acerca .container .face {
+    background: rgba(34, 40, 49, 0.9); }
+    .acerca .container .face p {
+      width: 60vw; }
+
+  .proyectos h1, .ligas h1, .contacto h1, .servicios .tittle h1, .acerca .presentacion h1, .home .portada h1 {
+    font-size: 1.65rem;
+    letter-spacing: 0.01rem; }
+  .proyectos h2, .ligas h2, .contacto h2, .servicios .tittle h2, .acerca .presentacion h2, .home .portada h2 {
+    font-size: 0.825rem;
+    letter-spacing: 0.01rem; }
+
+  .google-map iframe {
+    width: 300px;
+    height: 200px; } }
 /* l */
 @media screen and (min-width: 1441px) {
   body {

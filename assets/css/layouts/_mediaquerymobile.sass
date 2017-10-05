@@ -1,3 +1,21 @@
 /* mobile */
-@media screen and (max-width: 425px)
-  
+@media screen and (max-width: 470px)
+
+  html, body,
+    font-size: 16px
+
+  .acerca
+    .container
+      .face
+        background: rgba($negro, 0.9)
+        p
+          width: 60vw
+
+  .proyectos, .ligas, .contacto, .servicios .tittle, .acerca .presentacion, .home .portada
+    +fontsize(1.65rem, 0.01rem)
+
+
+  .google-map
+    iframe
+      width: 300px
+      height: 200px
