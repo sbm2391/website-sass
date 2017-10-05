@@ -36,17 +36,18 @@
       padding-right: 1.5rem
       text-align: right
       height: 2.5rem
-      letter-spacing: -0.25rem
+      //letter-spacing: -0.25rem
       li
         display: inline-block
         padding: 0.6rem 0
+        margin-right: 1rem
         list-style-type: none
-        height: 2.5rem
-        width: 20%
+        height: 2rem
+        //width: 20%
         letter-spacing: normal
-        +transition( background, .2s, linear )
+        +transition( all, .2s, linear )
         &:hover
-          background-color: $azul
+          border-bottom: 0.1rem solid $gris
         a
           text-decoration: none
           display: block
