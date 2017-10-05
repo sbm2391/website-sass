@@ -467,24 +467,23 @@ html, body {
   #menu-icon {
     display: block;
     height: 2.5rem;
-    padding: 0.5rem 1rem; }
+    padding: 0.5rem 1rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    #menu-icon:hover + .nav-ul li {
+      display: block; }
     #menu-icon .fa {
-      font-size: 1.5rem;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-      #menu-icon .fa:hover + #mini-nav-il {
-        display: none; }
+      font-size: 1.5rem; }
 
   #mini-nav-il {
     padding-right: 0;
-    width: 100%;
-    height: 12.5rem;
-    background-color: rgba(34, 40, 49, 0.8); }
+    width: 100%; }
     #mini-nav-il li {
-      display: block;
+      display: none;
+      background-color: rgba(34, 40, 49, 0.8);
       height: 2.5rem;
       margin: 0;
       padding-right: 1rem;
