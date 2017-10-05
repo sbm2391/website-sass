@@ -371,7 +371,6 @@ html, body {
   margin: 0; }
   .contacto .table .container-3 .cf {
     max-width: 60%;
-    height: 70vh;
     text-align: center;
     margin: 0 auto 0 auto;
     text-align: center; }
@@ -470,7 +469,14 @@ html, body {
     height: 2.5rem;
     padding: 0.5rem 1rem; }
     #menu-icon .fa {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #menu-icon .fa:hover + #mini-nav-il {
+        display: none; }
 
   #mini-nav-il {
     padding-right: 0;
@@ -552,8 +558,8 @@ html, body {
     width: 1440px;
     margin: 0 auto; }
 
-  .acerca .presentacion .container .face p {
-    width: 22vw; }
+  .acerca .container .face p {
+    width: 26rem; }
 
   .servicios .container-1 {
     margin-top: 4vh;

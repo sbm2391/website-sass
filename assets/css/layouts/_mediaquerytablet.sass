@@ -7,13 +7,14 @@
     display: block
     height: 2.5rem
     padding: 0.5rem 1rem
-
     .fa
       font-size: 1.5rem
+      +transition( all, 0.3s, ease-in-out )
+      &:hover + #mini-nav-il
+        display: none
+
 
   #mini-nav-il
-    //display: none
-    //border-style: solid
     padding-right: 0
     width: 100%
     height: 12.5rem
@@ -21,7 +22,6 @@
     li
       display: block
       height: 2.5rem
-      //border-style: solid
       margin: 0
       padding-right: 1rem
       +transition( all, .2s, linear )
