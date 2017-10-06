@@ -526,14 +526,20 @@ html, body {
     .contacto .table .google-map p {
       width: 100%; }
 
-  .ligas .asociados a {
-    width: 11rem;
-    height: 12rem;
-    display: block;
-    margin: 3vh auto; }
-    .ligas .asociados a img {
+  .ligas .asociados {
+    display: block; }
+    .ligas .asociados a {
       width: 11rem;
-      height: 12rem; }
+      height: 12rem;
+      display: block;
+      margin: 3vh auto; }
+      .ligas .asociados a img {
+        width: 11rem;
+        height: 12rem; }
+      .ligas .asociados a p {
+        left: 0;
+        padding: 0.2rem;
+        font-size: 0.8rem; }
 
   .proyectos h1, .ligas h1, .contacto h1, .servicios .tittle h1, .acerca .presentacion h1, .home .portada h1 {
     font-size: 2.2rem;
@@ -579,7 +585,7 @@ html, body {
 
   .servicios .container-1 {
     margin-top: 4vh;
-    padding: 0 0 0 10vw; }
+    padding: 0 10vw; }
     .servicios .container-1 #margin, .servicios .container-1 #margin2 {
       margin: 70px; }
     .servicios .container-1 .box {
@@ -587,7 +593,7 @@ html, body {
 
   .ligas .asociados {
     margin-top: 7vh;
-    padding: 0 0 0 10vw; }
+    padding: 0 10vw; }
     .ligas .asociados a {
       width: 308px;
       height: 322px; }
@@ -597,6 +603,6 @@ html, body {
 
   .contacto .table {
     margin-top: 7vh;
-    padding: 0 0 0 10vw; } }
+    padding: 0 10vw; } }
 
 /*# sourceMappingURL=main.css.map */
