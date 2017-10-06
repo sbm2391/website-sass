@@ -94,7 +94,7 @@ html, body {
       width: 40%;
       text-transform: uppercase;
       letter-spacing: 0.1rem;
-      line-height: 0.9;
+      line-height: 1;
       margin: 0 10vw;
       color: #EEEEEE;
       font-family: "Roboto", sans-serif; }
@@ -120,16 +120,21 @@ html, body {
       text-transform: uppercase;
       padding: 0 0 0.7rem 0;
       color: #222831;
-      font-family: "Roboto", sans-serif; }
+      font-family: "Roboto", sans-serif;
+      border-top: 0.1rem solid #222831;
+      border-right: 0.1rem solid;
+      box-sizing: border-box; }
     .acerca .presentacion h1 {
       font-size: 3rem;
       width: 80%;
       text-transform: uppercase;
       letter-spacing: 0.1rem;
-      line-height: 0.9;
+      line-height: 1;
       color: #222831;
       font-family: "Roboto", sans-serif;
-      margin: 0 10vw; }
+      margin: 0 10vw;
+      border-right: 0.1rem solid #222831;
+      box-sizing: border-box; }
   .acerca .container {
     box-sizing: border-box;
     margin: 5vh 10vw 6vh 10vw;
@@ -162,25 +167,23 @@ html, body {
       letter-spacing: 0.3rem;
       margin: 0 10vw;
       width: 80%;
-      text-align: right;
       text-transform: uppercase;
       padding: 0 0 0.7rem 0;
       color: #222831;
       font-family: "Roboto", sans-serif;
       border-top: 0.1rem solid #222831;
-      border-left: 0.1rem solid;
+      border-right: 0.1rem solid;
       box-sizing: border-box; }
     .servicios .tittle h1 {
       font-size: 3rem;
       width: 80%;
       text-transform: uppercase;
       letter-spacing: 0.1rem;
-      line-height: 0.9;
+      line-height: 1;
       color: #222831;
       font-family: "Roboto", sans-serif;
       margin: 0 10vw;
-      text-align: right;
-      border-left: 0.1rem solid #222831;
+      border-right: 0.1rem solid #222831;
       box-sizing: border-box; }
   .servicios .container-1 {
     background-color: #EEEEEE;
@@ -231,23 +234,24 @@ html, body {
     letter-spacing: 0.3rem;
     margin: 0 10vw;
     width: 80%;
-    text-align: center;
     text-transform: uppercase;
     padding: 0 0 0.7rem 0;
     color: #222831;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    border-top: 0.1rem solid #222831;
+    border-right: 0.1rem solid;
+    box-sizing: border-box; }
   .proyectos h1 {
     font-size: 3rem;
     width: 80%;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    line-height: 0.9;
+    line-height: 1;
     color: #222831;
     font-family: "Roboto", sans-serif;
     margin: 0 10vw;
-    border-bottom: 0.1rem solid #222831;
-    box-sizing: border-box;
-    text-align: center; }
+    border-right: 0.1rem solid #222831;
+    box-sizing: border-box; }
   .proyectos .container-2 {
     width: 100%;
     background-color: #EEEEEE;
@@ -275,7 +279,7 @@ html, body {
     width: 80%;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    line-height: 0.9;
+    line-height: 1;
     color: #222831;
     font-family: "Roboto", sans-serif;
     margin: 0 10vw;
@@ -284,7 +288,9 @@ html, body {
   .ligas .asociados {
     width: 100%;
     padding: 5vh 10vw;
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    justify-content: space-between; }
     .ligas .asociados a {
       width: 22vw;
       height: 23wh;
@@ -343,21 +349,24 @@ html, body {
     padding: 0 0 0.7rem 0;
     color: #222831;
     font-family: "Roboto", sans-serif;
-    text-align: right; }
+    border-top: 0.1rem solid #222831;
+    border-right: 0.1rem solid #222831;
+    box-sizing: border-box; }
   .contacto h1 {
     font-size: 3rem;
     width: 80%;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    line-height: 0.9;
+    line-height: 1;
     color: #222831;
     font-family: "Roboto", sans-serif;
     margin: 0 10vw;
-    text-align: right; }
+    border-right: 0.1rem solid #222831;
+    box-sizing: border-box; }
   .contacto .table {
     display: table;
     width: 100%;
-    padding: 0; }
+    padding: 0 0 3rem 0; }
     .contacto .table .google-map {
       display: table-cell; }
       .contacto .table .google-map p {
