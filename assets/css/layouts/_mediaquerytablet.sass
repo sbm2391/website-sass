@@ -8,31 +8,22 @@
     height: 2.5rem
     padding: 0.5rem 1rem
     +transition( all, 0.3s, ease-in-out )
-    //&:hover
-      //height: 12.5rem
-    &:hover + .nav-ul li
-      display: block
     .fa
       font-size: 1.5rem
 
-  .esconder
+  #esconder
     display: none
 
-  .mostrar
+
+  #mostrar
     display: block
-
-  #mini-nav-il
-    padding-right: 0
-    width: 100%
     height: 12.5rem
-    display: none
-    //background-color: rgba($negro, 0.8)
+    background-color: rgba($negro, 0.8)
+    padding: 0
     li
       display: block
-      background-color: rgba($negro, 0.8)
-        //right: 0
       height: 2.5rem
-      margin: 0
+      width: 100%
       padding-right: 1rem
       +transition( all, .2s, linear )
       &:hover
@@ -40,6 +31,10 @@
         border-bottom: none
       a
         text-align: right
+
+
+  #mini-nav-il
+    display: none
 
   .contacto
     .table

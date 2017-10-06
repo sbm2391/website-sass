@@ -3,17 +3,17 @@ var menu = document.getElementById("mini-nav-il");
 var bool = true;
 
 
-//function displayMenu() {
-    //if (bool) {
-      //  menu.setAttribute("class", "mostrar")
-        //bool = false;
-        //alert('true');
+function displayMenu() {
+    if (bool) {
+      menu.setAttribute("id", "mostrar")
+      bool = false;
+      //alert('true');
 
-    //} else {
-        //menu.setAttribute("class", "esconder")
-        //bool = true;
+    } else {
+        menu.setAttribute("id", "esconder")
+        bool = true;
         //alert('false');
-    //}
-//}
+  }
+}
 
-//btn.addEventListener("click", displayMenu, bool);
+btn.addEventListener("click", displayMenu, bool);
