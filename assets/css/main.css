@@ -438,7 +438,8 @@ html, body {
   display: table;
   width: 100%;
   background-color: rgba(34, 40, 49, 0.9);
-  height: 25vh; }
+  height: 25vh;
+  padding: 2rem 0 1rem 0; }
   .footer .container-4 {
     width: 100%;
     display: table-cell;
@@ -450,6 +451,8 @@ html, body {
       height: 1.8rem; }
       .footer .container-4 .logo a img {
         height: 1.8rem; }
+    .footer .container-4 p {
+      margin: 0 0 0.5rem 0; }
     .footer .container-4 .cont-center .icon .fa {
       color: #EEEEEE;
       font-size: 2.3rem; }
