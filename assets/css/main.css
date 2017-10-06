@@ -478,11 +478,19 @@ html, body {
     #menu-icon .fa {
       font-size: 1.5rem; }
 
+  .esconder {
+    display: none; }
+
+  .mostrar {
+    display: block; }
+
   #mini-nav-il {
     padding-right: 0;
-    width: 100%; }
+    width: 100%;
+    height: 12.5rem;
+    display: none; }
     #mini-nav-il li {
-      display: none;
+      display: block;
       background-color: rgba(34, 40, 49, 0.8);
       height: 2.5rem;
       margin: 0;
