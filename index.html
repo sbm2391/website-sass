@@ -120,14 +120,14 @@
       <h1>Escríbenos o visítanos</h1>
       <div class="table">
         <div class="container-3">
-          <form class="cf">
+          <form class="cf" method="post" name="form1" action="assets/php/enviar.php" enctype="text/plain" >
             <div class="half-left-cf">
-              <input type="text" id="input-name" placeholder="Nombre">
-              <input type="email" id="input-email" placeholder="e-mail">
-              <input type="text" id="input-subject" placeholder="Agregar asunto">
+              <input id="input-name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ]{1,30}" maxlength="30" name="nombre" placeholder="Nombre" required>
+              <input type="email" id="input-email" name="correo" placeholder="e-mail" required>
+              <input id="input-subject" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ]{1,50}" maxlength="50" name="asunto" placeholder="Agregar asunto" required>
             </div>
             <div class="half-right-cf">
-              <textarea name="message" type="text" id="input-message" placeholder="Mensaje"></textarea>
+              <textarea name="mensaje" id="input-message" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ:.,;]{1,200}" maxlength="200" placeholder="Mensaje" required></textarea>
             </div>
             <input type="submit" value="Enviar" id="input-submit">
           </form>
