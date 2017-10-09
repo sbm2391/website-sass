@@ -10,7 +10,7 @@ html, body {
 
 .nav {
   position: fixed;
-  z-index: 2;
+  z-index: 20;
   display: table;
   width: 100%;
   height: 2.5rem;
@@ -257,6 +257,75 @@ html, body {
     width: 100%;
     background-color: #EEEEEE;
     height: 50vh; }
+
+.slideshow {
+  widht: 100%;
+  position: relative; }
+  .slideshow .slider {
+    margin: 5vh 10vw 6vh 10vw;
+    display: block;
+    width: 79vw;
+    height: 60vh;
+    overflow: hidden;
+    position: relative; }
+    .slideshow .slider .item {
+      position: absolute;
+      height: 100%;
+      visibility: hidden;
+      opacity: 0; }
+      .slideshow .slider .item.actual {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: visibility 1s linear;
+        -moz-transition: visibility 1s linear;
+        -ms-transition: visibility 1s linear;
+        -o-transition: visibility 1s linear;
+        transition: visibility 1s linear;
+        -webkit-transition: opacity 1s linear;
+        -moz-transition: opacity 1s linear;
+        -ms-transition: opacity 1s linear;
+        -o-transition: opacity 1s linear;
+        transition: opacity 1s linear; }
+      .slideshow .slider .item img {
+        width: 100%; }
+    .slideshow .slider .next {
+      position: absolute;
+      z-index: 10;
+      color: rgba(238, 238, 238, 0.6);
+      top: 25vh;
+      width: 100%;
+      padding: 0 1rem;
+      font-size: 2rem; }
+    .slideshow .slider .dots {
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
+      color: rgba(238, 238, 238, 0.6);
+      width: 100%;
+      text-align: center; }
+      .slideshow .slider .dots ul {
+        padding: 0; }
+        .slideshow .slider .dots ul li {
+          display: inline;
+          margin: 0 0.3rem;
+          list-style-type: none;
+          cursor: pointer; }
+          .slideshow .slider .dots ul li.activo {
+            color: #EEEEEE; }
+  .slideshow #right {
+    float: right;
+    cursor: pointer; }
+  .slideshow #left {
+    float: left;
+    cursor: pointer; }
+  .slideshow #right, .slideshow #left, .slideshow #circle-left, .slideshow #circle-middle, .slideshow #circle-right {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+    .slideshow #right:hover, .slideshow #left:hover, .slideshow #circle-left:hover, .slideshow #circle-middle:hover, .slideshow #circle-right:hover {
+      color: #EEEEEE; }
 
 .ligas {
   display: table;

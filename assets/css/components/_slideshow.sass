@@ -1,0 +1,76 @@
+.slideshow
+  widht: 100%
+  position: relative
+  .slider
+    margin: 5vh 10vw 6vh 10vw
+    display: block
+    width: 79vw
+    height: 60vh
+    overflow: hidden
+    position: relative
+    .item
+      //overflow: hidden
+      position: absolute
+      height: 100%
+      visibility: hidden
+      opacity: 0
+      &.actual
+        visibility: visible
+        opacity: 1
+        +transition( visibility, 1s,linear )
+        +transition( opacity, 1s, linear )
+      img
+        width: 100%
+
+
+    .next
+      position: absolute
+      z-index: 10
+      color: rgba($gris, 0.6)
+      top: 25vh
+      width: 100%
+      padding: 0 1rem
+      font-size: 2rem
+
+
+    .dots
+      position: absolute
+      z-index: 10
+      bottom: 0
+      color: rgba($gris, 0.6)
+      width: 100%
+      text-align: center
+      ul
+        padding: 0
+        li
+          display: inline
+          margin: 0 0.3rem
+          //font-size: 0.8rem
+          list-style-type: none
+          cursor: pointer
+          &.activo
+            color: $gris
+  #right
+    float: right
+    cursor: pointer
+  #left
+    float: left
+    cursor: pointer
+  //#item-1
+    //top: 0
+  //#item-2
+    //left: 79vw
+    //top: 0
+  //#item-3
+    //left: 158vw
+    //top: 0
+
+  #right, #left, #circle-left, #circle-middle, #circle-right
+    +transition( all, .2s, linear )
+    &:hover
+      color: $gris
+
+
+    //opacity: 1
+    //+transition( visibility, 1s, ease-in )
+    //+transition( opacity, 1s, ease-in )
