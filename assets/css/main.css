@@ -193,11 +193,12 @@ html, body {
     padding: 0 10vw;
     text-align: center; }
     .servicios .container-1 .box {
-      display: inline-block;
+      display: inline-table;
       border: 0;
       outline: 0;
       width: 22vw;
-      margin: 0;
+      height: 13rem;
+      margin: 3rem;
       background-color: white;
       border: 0.05rem groove #EEEEEE;
       -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
@@ -584,16 +585,18 @@ html, body {
     width: 26rem; }
 
   .servicios .container-1 {
+    width: 1440px;
     margin-top: 4vh;
-    padding: 0 10vw; }
+    padding: 0 0 0 10vw; }
     .servicios .container-1 #margin, .servicios .container-1 #margin2 {
       margin: 70px; }
     .servicios .container-1 .box {
-      width: 308px; }
+      width: 264px; }
 
   .ligas .asociados {
+    width: 1440px;
     margin-top: 7vh;
-    padding: 0 10vw; }
+    padding: 0 0 0 10vw; }
     .ligas .asociados a {
       width: 308px;
       height: 322px; }
