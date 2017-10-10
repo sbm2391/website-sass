@@ -648,6 +648,25 @@ html, body {
       width: 1400px;
       display: block; }
     .content .item, .content .slider {
-      width: 1106px; } }
+      width: 1106px; }
+
+  .acerca .container .face p {
+    width: 518px; }
+
+  .servicios .container-1 {
+    width: 1400px;
+    display: block;
+    padding: 5vh 140px; }
+
+  .ligas .asociados a {
+    width: 308px;
+    height: 322px; }
+    .ligas .asociados a img {
+      width: 308px;
+      height: 322px; }
+
+  .contacto .table {
+    width: 1120px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
