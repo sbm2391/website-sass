@@ -23,14 +23,41 @@ btn.addEventListener("click", displayMenu, bool);
 //slideshow
 
  var actual = 0;
- funcion mostrar(n) {
-   var item = document.getElementsbyClassName("item");
-   for(1 = 0; i< item.length; i++) {
+ function puntos(n) {
+   var dots = document.getElementsByClassName("dot");
+   for( i = 0; i < dots.length; i++) {
+     if(dots[i].className.includes("activo")) {
+       dots[i].className = dots[i].className.replace("activo", "");
+       break;
+     }
+   }
+   dots[n].className += " activo"
+ }
+ function mostrar(n) {
+   var item = document.getElementsByClassName("item");
+   for( i = 0; i < item.length; i++) {
      if(item[i].className.includes("actual")) {
        item[i].className = item[i].className.replace("actual", "");
        break;
      }
-   }
+  }
    actual = n;
    item[n].className += " actual";
+   puntos(n);
+ }
+
+ function siguiente() {
+   actual++;
+   if(actual > 2) {
+     actual = 0;
+   }
+   mostrar(actual);
+ }
+
+ function anterior() {
+   actual--;
+   if(actual < 0) {
+     actual = 2;
+   }
+   mostrar(actual);
  }
