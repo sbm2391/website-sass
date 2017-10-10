@@ -661,7 +661,8 @@ html, body {
       width: 1400px;
       display: block; }
     .content .item, .content .slider {
-      width: 1106px; }
+      width: 1106px;
+      max-height: 540px; }
 
   .acerca .container .face p {
     width: 518px; }
