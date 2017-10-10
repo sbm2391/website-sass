@@ -589,7 +589,7 @@ html, body {
   .contacto .table .google-map {
     display: block;
     width: 100%;
-    margin: 3rem 0;
+    margin: 2rem 0 1rem 0;
     text-align: center; }
     .contacto .table .google-map p {
       width: 100%; }
