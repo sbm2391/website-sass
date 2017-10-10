@@ -137,7 +137,7 @@ html, body {
       box-sizing: border-box; }
   .acerca .container {
     box-sizing: border-box;
-    margin: 5vh auto;
+    margin: 2rem auto;
     width: 80%; }
     .acerca .container .face {
       width: 100%;
@@ -189,7 +189,7 @@ html, body {
     background-color: #EEEEEE;
     display: table;
     width: 100%;
-    padding: 0 10vw;
+    padding: 1rem 10vw;
     text-align: center; }
     .servicios .container-1 .box {
       display: inline-table;
@@ -197,7 +197,6 @@ html, body {
       outline: 0;
       width: 22vw;
       height: 13rem;
-      margin: 3rem;
       background-color: white;
       border: 0.05rem groove #EEEEEE;
       -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(128, 128, 128, 0.1);
@@ -261,7 +260,7 @@ html, body {
   widht: 100%;
   position: relative; }
   .slideshow .slider {
-    margin: 5vh auto;
+    margin: 2rem auto;
     display: block;
     width: 79vw;
     height: 60vh;
@@ -356,7 +355,7 @@ html, body {
     box-sizing: border-box; }
   .ligas .asociados {
     width: 100%;
-    padding: 5vh 10vw;
+    padding: 1rem 10vw;
     text-align: center;
     display: flex;
     justify-content: space-between; }
@@ -368,7 +367,7 @@ html, body {
       position: relative;
       padding: 0;
       overflow: hidden;
-      margin: 1vw; }
+      margin: 1rem; }
       .ligas .asociados a:hover p {
         left: 0%; }
       .ligas .asociados a:hover img {
@@ -435,7 +434,7 @@ html, body {
   .contacto .table {
     display: table;
     width: 100%;
-    padding: 0 0 3rem 0; }
+    padding: 1rem 0 3rem 0; }
     .contacto .table .google-map {
       display: table-cell; }
       .contacto .table .google-map p {
@@ -450,7 +449,7 @@ html, body {
   .contacto .table .container-3 .cf {
     max-width: 60%;
     text-align: center;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     text-align: center; }
     .contacto .table .container-3 .cf .half-left-cf {
       width: 100%; }
@@ -641,6 +640,20 @@ html, body {
   body {
     background: #EEEEEE; }
 
+  .nav .center {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto; }
+    .nav .center .logo-menu {
+      width: 406px; }
+    .nav .center .main-nav {
+      width: 980px; }
+
+  .home .portada h2, .home .portada h1, .home .portada h3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 1176px; }
+
   .content {
     width: 1400px;
     margin: 0 auto; }
@@ -656,7 +669,7 @@ html, body {
   .servicios .container-1 {
     width: 1400px;
     display: block;
-    padding: 5vh 140px; }
+    padding: 1rem 140px; }
 
   .ligas .asociados a {
     width: 308px;
