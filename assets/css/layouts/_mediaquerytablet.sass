@@ -18,7 +18,7 @@
   #mostrar
     display: block
     height: 12.5rem
-    background-color: rgba($negro, 0.8)
+    background-color: $negro
     padding: 0
     li
       display: block
@@ -47,7 +47,9 @@
         margin: 2rem 0 1rem 0
         text-align: center
         p
-          width: 100%
+          width: 80%
+          margin-right: auto
+          margin-left: auto
 
   .ligas
     .asociados
@@ -64,6 +66,9 @@
           left: 0
           padding: 0.2rem
           font-size: 0.8rem
+
+  .slider
+    min-height: 165px
 
   .proyectos, .ligas, .contacto, .servicios .tittle, .acerca .presentacion, .home .portada
     +fontsize(2.2rem, 0.01rem)

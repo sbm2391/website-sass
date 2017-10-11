@@ -14,7 +14,7 @@ html, body {
   display: table;
   width: 100%;
   height: 2.5rem;
-  background-color: rgba(34, 40, 49, 0.8); }
+  background-color: #222831; }
   .nav .center .logo-menu {
     height: 2.5rem;
     padding: 0 5%;
@@ -83,7 +83,7 @@ html, body {
     .home .portada h2 {
       font-size: 1.2rem;
       letter-spacing: 0.4rem;
-      width: 40%;
+      width: 50%;
       text-transform: uppercase;
       margin: 0 10vw;
       color: #EEEEEE;
@@ -91,7 +91,7 @@ html, body {
     .home .portada h1 {
       font-size: 3rem;
       padding: 0.8rem 0;
-      width: 40%;
+      width: 50%;
       text-transform: uppercase;
       letter-spacing: 0.1rem;
       line-height: 1;
@@ -100,7 +100,7 @@ html, body {
       font-family: "Roboto", sans-serif; }
     .home .portada h3 {
       font-size: 1rem;
-      width: 40%;
+      width: 50%;
       text-transform: uppercase;
       margin: 0 10vw;
       color: #EEEEEE; }
@@ -562,7 +562,7 @@ html, body {
   #mostrar {
     display: block;
     height: 12.5rem;
-    background-color: rgba(34, 40, 49, 0.8);
+    background-color: #222831;
     padding: 0; }
     #mostrar li {
       display: block;
@@ -592,7 +592,9 @@ html, body {
     margin: 2rem 0 1rem 0;
     text-align: center; }
     .contacto .table .google-map p {
-      width: 100%; }
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto; }
 
   .ligas .asociados {
     display: block; }
@@ -608,6 +610,9 @@ html, body {
         left: 0;
         padding: 0.2rem;
         font-size: 0.8rem; }
+
+  .slider {
+    min-height: 165px; }
 
   .proyectos h1, .ligas h1, .contacto h1, .servicios .tittle h1, .acerca .presentacion h1, .home .portada h1 {
     font-size: 2.2rem;
