@@ -285,8 +285,10 @@ html, body {
         -o-transition: opacity 1s linear;
         transition: opacity 1s linear; }
       .slideshow .slider .item img {
-        width: 100%;
-        height: 100%; }
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%; }
       .slideshow .slider .item .texto {
         position: absolute;
         width: 100%;
@@ -556,6 +558,9 @@ body {
   html, body {
     font-size: 20px; }
 
+  .slideshow .slider {
+    height: 60vh; }
+
   .google-map iframe {
     width: 350px;
     height: 250px; } }
@@ -637,9 +642,6 @@ body {
         padding: 0.2rem;
         font-size: 0.8rem; }
 
-  .slider {
-    min-height: 165px; }
-
   .proyectos h1, .ligas h1, .contacto h1, .servicios .tittle h1, .acerca .presentacion h1, .home .portada h1 {
     font-size: 2.2rem;
     letter-spacing: 0.01rem; }
@@ -647,7 +649,7 @@ body {
     font-size: 1.1rem;
     letter-spacing: 0.01rem; } }
 /* mobile */
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
   html, body {
     font-size: 16px; }
 
@@ -662,6 +664,14 @@ body {
   .proyectos h2, .ligas h2, .contacto h2, .servicios .tittle h2, .acerca .presentacion h2, .home .portada h2 {
     font-size: 0.825rem;
     letter-spacing: 0.01rem; }
+
+  .slideshow .slider {
+    width: 100vw;
+    height: 210px; }
+    .slideshow .slider .item {
+      min-height: 100px; }
+    .slideshow .slider .next {
+      top: 90px; }
 
   .google-map iframe {
     width: 300px;
