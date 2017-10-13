@@ -48,7 +48,7 @@ btn.addEventListener("click", displayMenu, bool);
 
  function siguiente() {
    actual++;
-   if(actual > 2) {
+   if(actual > 7) {
      actual = 0;
    }
    mostrar(actual);
@@ -57,7 +57,7 @@ btn.addEventListener("click", displayMenu, bool);
  function anterior() {
    actual--;
    if(actual < 0) {
-     actual = 2;
+     actual = 7;
    }
    mostrar(actual);
  }
