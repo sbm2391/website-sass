@@ -1,4 +1,5 @@
 <?php
+
   $destino = "sbm2391@hotmail.com";
   $nombre = $_POST["nombre"];
   $correo = $_POST["correo"];
@@ -6,6 +7,6 @@
   $mensaje = $_POST["mensaje"];
   $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nAsunto: " . $asunto . "\nMensaje: " . $mensaje;
   mail($destino, "Contacto", $contenido);
-  header("Location:assets/html/gracias.html");
+  header("Location:gracias.html");
 
 ?>
