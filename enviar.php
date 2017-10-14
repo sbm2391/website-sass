@@ -3,9 +3,9 @@
 require_once('vendor/autoload.php');
 
 if (
-  isset($_POST['nombre'] &&
-  isset($_POST['correo'] &&
-  isset($_POST['asunto'] &&
+  isset($_POST['nombre']) &&
+  isset($_POST['correo']) &&
+  isset($_POST['asunto']) &&
   isset($_POST['mensaje'])
 ) {
   SimpleMail::make()
