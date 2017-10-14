@@ -1,0 +1,9 @@
+{
+    "name": "sintique/obrador",
+    "description": "Client work",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "eoghanobrien/php-simple-mail": "^1.7"
+    }
+}

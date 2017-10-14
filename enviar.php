@@ -1,10 +1,22 @@
 <?php
-  $destino = "sbm2391@hotmail.com";
-  $nombre = $_POST["nombre"];
-  $correo = $_POST["correo"];
-  $asunto = $_POST["asunto"];
-  $mensaje = $_POST["mensaje"];
-  $contenido = "Nombre: " . $nombre ."\nCorreo: " . $correo . "\nAsunto:" . $asunto . "\nMensaje: " . $mensaje;
-  mail($destino,"Contacto",$contenido);
-  header("location:gracias.html");
- ?>
+
+require_once('vendor/autoload.php');
+
+if (
+  isset($_POST['nombre'] &&
+  isset($_POST['correo'] &&
+  isset($_POST['asunto'] &&
+  isset($_POST['mensaje'])
+) {
+  SimpleMail::make()
+    ->setTo("sbm2391@hotmail.com", 'Contacto desde la web por del '.  date())
+    ->setFrom(isset($_POST['correo'], $_POST['nombre'])
+    ->setSubject(isset($_POST['asunto'])
+    ->setMessage(isset($_POST['mensaje'])
+    ->setWrap(70)
+    ->send();
+
+    header("location:gracias.html");
+} else {
+  throw new Exception("Error Processing Request", 1);  
+}
