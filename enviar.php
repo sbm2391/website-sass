@@ -1,10 +1,13 @@
 <?php
-  $destino = "sbm2391@hotmail.com";
-  $nombre = $_POST["nombre"];
-  $correo = $_POST["correo"];
-  $asunto = $_POST["asunto"];
-  $mensaje = $_POST["mensaje"];
-  $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nAsunto: " . $asunto . "\nMensaje: " . $mensaje;
-  mail($destino,"Contacto", $contenido);
-  header("Location:gracias.html")
- ?>
+
+require_once('vendor/autoload.php');
+
+  SimpleMail::make()
+    ->setTo("sbm2391@hotmail.com", 'Contacto desde la web del '.  date('d-m-Y'))
+    ->setFrom($_POST['correo'], $_POST['nombre'])
+    ->setSubject($_POST['asunto'])
+    ->setMessage($_POST['mensaje'])
+    ->setWrap(70)
+    ->send();
+
+    header("location:gracias.html");
